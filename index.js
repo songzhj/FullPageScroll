@@ -1,5 +1,5 @@
 /**
- * Created by zhijia.song on 2018/4/12.
+ * Created by @songzhj on 2018/4/12.
  */
 import React, {Component} from 'react';
 
@@ -55,12 +55,6 @@ class FullPageScroll extends Component {
         this.showEl.style.transform = `translateY(${0}px)`;
         this.afterEl.style.transform = `translateY(${SCREEN_HEIGHT}px)`;
         this.animation = false;
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
     }
 
     handleTouchStart = (e) => {
